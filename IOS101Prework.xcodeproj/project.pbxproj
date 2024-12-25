@@ -48,16 +48,6 @@
 			path = IOS101Prework;
 			sourceTree = "<group>";
 		};
-		2EA52E3F2D1A230100E1E335 /* IOS101PreworkTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = IOS101PreworkTests;
-			sourceTree = "<group>";
-		};
-		2EA52E492D1A230100E1E335 /* IOS101PreworkUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = IOS101PreworkUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				2EA52E282D1A22FF00E1E335 /* IOS101Prework */,
-				2EA52E3F2D1A230100E1E335 /* IOS101PreworkTests */,
-				2EA52E492D1A230100E1E335 /* IOS101PreworkUITests */,
 				2EA52E272D1A22FF00E1E335 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				2EA52E3E2D1A230100E1E335 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				2EA52E3F2D1A230100E1E335 /* IOS101PreworkTests */,
-			);
 			name = IOS101PreworkTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				2EA52E482D1A230100E1E335 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				2EA52E492D1A230100E1E335 /* IOS101PreworkUITests */,
 			);
 			name = IOS101PreworkUITests;
 			packageProductDependencies = (
